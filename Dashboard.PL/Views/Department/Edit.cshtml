@@ -1,0 +1,25 @@
+﻿@model DepartmentViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="card border border-primary">
+    <div class="card-header  bg-primary">
+        <h1 class="text-white">Create New Department</h1>
+    </div>
+    <div class="card-body">
+
+
+        <form asp-action="Edit" method="post">
+            <partial name="PartialViews/CreateEditPartialView" model="@Model" />
+
+            <div asp-validation-summary="All"></div>
+            <div class="mt-4 m-auto">
+                <input class="btn btn-primary" type="submit" value="Update Department" />
+                <a asp-action="Index" class="btn btn-outline-dark">Back to list</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

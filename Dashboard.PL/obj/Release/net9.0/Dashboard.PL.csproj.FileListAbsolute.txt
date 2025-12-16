@@ -1,0 +1,9 @@
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\Dashboard.PL.csproj.AssemblyReference.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\rpswa.dswa.cache.json
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\Dashboard.PL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\Dashboard.PL.AssemblyInfoInputs.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\Dashboard.PL.AssemblyInfo.cs
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\Dashboard.PL.csproj.CoreCompileInputs.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\Dashboard.PL.MvcApplicationPartsAssemblyInfo.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\Dashboard.PL.RazorAssemblyInfo.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Release\net9.0\Dashboard.PL.RazorAssemblyInfo.cs

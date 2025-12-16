@@ -1,0 +1,12 @@
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\bin\Release\net9.0\Dashboard.DAL.deps.json
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\bin\Release\net9.0\Dashboard.DAL.dll
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\bin\Release\net9.0\Dashboard.DAL.pdb
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\Dashboard.DAL.csproj.AssemblyReference.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\Dashboard.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\Dashboard.DAL.AssemblyInfoInputs.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\Dashboard.DAL.AssemblyInfo.cs
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\Dashboard.DAL.csproj.CoreCompileInputs.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\Dashboard.DAL.dll
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\refint\Dashboard.DAL.dll
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\Dashboard.DAL.pdb
+D:\Route\WorkSpace\AdminDashboard\Dashboard.DAL\obj\Release\net9.0\ref\Dashboard.DAL.dll

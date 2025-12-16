@@ -1,0 +1,5 @@
+D:\Route\WorkSpace\AdminDashboard\Dashboard.BLL\obj\Release\net9.0\Dashboard.BLL.csproj.AssemblyReference.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.BLL\obj\Release\net9.0\Dashboard.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\WorkSpace\AdminDashboard\Dashboard.BLL\obj\Release\net9.0\Dashboard.BLL.AssemblyInfoInputs.cache
+D:\Route\WorkSpace\AdminDashboard\Dashboard.BLL\obj\Release\net9.0\Dashboard.BLL.AssemblyInfo.cs
+D:\Route\WorkSpace\AdminDashboard\Dashboard.BLL\obj\Release\net9.0\Dashboard.BLL.csproj.CoreCompileInputs.cache

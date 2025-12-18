@@ -27,7 +27,12 @@ namespace Dashboard.BLL.Services.EmployeeService
             var MappedEmployees = mapper.Map<IEnumerable<Employee>, IEnumerable<EmployeeDto>>(Employees);
             return MappedEmployees;
         }
-
+        public IEnumerable<EmployeeDto> GetSearchedEmployees(string? searchvalue)
+        {
+            var Employees = repository.GetAll(searchvalue);
+            var MappedEmployees = mapper.Map<IEnumerable<Employee>, IEnumerable<EmployeeDto>>(Employees);
+            return MappedEmployees;
+        }
         public int CreateEmployee(CreatedEmployeeDto dto)
         {
             var Emp = mapper.Map<CreatedEmployeeDto, Employee>(dto);

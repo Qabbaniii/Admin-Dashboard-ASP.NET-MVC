@@ -3,88 +3,28 @@
   "WorkspaceRootPath": "D:\\Route\\WorkSpace\\AdminDashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.bll\\services\\employeeservice\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|solutionrelative:dashboard.bll\\services\\employeeservice\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.dal\\repositories\\employeerepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|solutionrelative:dashboard.dal\\repositories\\employeerepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.bll\\services\\employeeservice\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|solutionrelative:dashboard.bll\\services\\employeeservice\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\viewmodels\\departmentvms\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\viewmodels\\departmentvms\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.dal\\repositories\\employeerepo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|solutionrelative:dashboard.dal\\repositories\\employeerepo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\employee\\partialviews\\createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\employee\\partialviews\\createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\department\\partialviews\\createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\department\\partialviews\\createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.bll\\services\\departmentservice\\departmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|solutionrelative:dashboard.bll\\services\\departmentservice\\departmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.dal\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|solutionrelative:dashboard.dal\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.dal\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|solutionrelative:dashboard.dal\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.dal\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|solutionrelative:dashboard.dal\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,279 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:41:52.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepartmentViewModel.cs",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\ViewModels\\DepartmentVMs\\DepartmentViewModel.cs",
-              "RelativeDocumentMoniker": "Dashboard.PL\\ViewModels\\DepartmentVMs\\DepartmentViewModel.cs",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\ViewModels\\DepartmentVMs\\DepartmentViewModel.cs",
-              "RelativeToolTip": "Dashboard.PL\\ViewModels\\DepartmentVMs\\DepartmentViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T15:37:37.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Employee\\Edit.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:36:13.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Details.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Employee\\Details.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Details.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Employee\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:36:10.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Employee\\Delete.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Delete.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Employee\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:36:07.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:35:52.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateEditPartialView.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\PartialViews\\CreateEditPartialView.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Employee\\PartialViews\\CreateEditPartialView.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\PartialViews\\CreateEditPartialView.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Employee\\PartialViews\\CreateEditPartialView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:35:18.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:35:14.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateEditPartialView.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\PartialViews\\CreateEditPartialView.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Department\\PartialViews\\CreateEditPartialView.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\PartialViews\\CreateEditPartialView.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Department\\PartialViews\\CreateEditPartialView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:35:04.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Department\\Delete.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\Delete.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Department\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:32:58.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Department\\Edit.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\Edit.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Department\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:30:37.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\Details.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Department\\Details.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\Details.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Department\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:29:20.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DepartmentServices.cs",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\DepartmentService\\DepartmentServices.cs",
-              "RelativeDocumentMoniker": "Dashboard.BLL\\Services\\DepartmentService\\DepartmentServices.cs",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\DepartmentService\\DepartmentServices.cs",
-              "RelativeToolTip": "Dashboard.BLL\\Services\\DepartmentService\\DepartmentServices.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "Title": "IEmployeeServices.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\EmployeeService\\IEmployeeServices.cs",
+              "RelativeDocumentMoniker": "Dashboard.BLL\\Services\\EmployeeService\\IEmployeeServices.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\EmployeeService\\IEmployeeServices.cs",
+              "RelativeToolTip": "Dashboard.BLL\\Services\\EmployeeService\\IEmployeeServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T15:01:38.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T15:00:34.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EmployeeConfiguration.cs",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Configurations\\EmployeeConfiguration.cs",
-              "RelativeDocumentMoniker": "Dashboard.DAL\\Configurations\\EmployeeConfiguration.cs",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Configurations\\EmployeeConfiguration.cs",
-              "RelativeToolTip": "Dashboard.DAL\\Configurations\\EmployeeConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:54:55.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DepartmentConfiguration.cs",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Configurations\\DepartmentConfiguration.cs",
-              "RelativeDocumentMoniker": "Dashboard.DAL\\Configurations\\DepartmentConfiguration.cs",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Configurations\\DepartmentConfiguration.cs",
-              "RelativeToolTip": "Dashboard.DAL\\Configurations\\DepartmentConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:54:52.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Contexts\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Dashboard.DAL\\Contexts\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Contexts\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Dashboard.DAL\\Contexts\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:54:41.518Z",
+              "WhenOpened": "2025-12-18T18:18:55.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\appsettings.json",
-              "RelativeDocumentMoniker": "Dashboard.PL\\appsettings.json",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\appsettings.json",
-              "RelativeToolTip": "Dashboard.PL\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-16T14:52:27.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Program.cs",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Program.cs",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Program.cs",
-              "RelativeToolTip": "Dashboard.PL\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Title": "EmployeeServices.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\EmployeeService\\EmployeeServices.cs",
+              "RelativeDocumentMoniker": "Dashboard.BLL\\Services\\EmployeeService\\EmployeeServices.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\EmployeeService\\EmployeeServices.cs",
+              "RelativeToolTip": "Dashboard.BLL\\Services\\EmployeeService\\EmployeeServices.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:51:23.398Z",
+              "WhenOpened": "2025-12-18T18:18:54.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Repositories\\EmployeeRepo\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Dashboard.DAL\\Repositories\\EmployeeRepo\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Repositories\\EmployeeRepo\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Dashboard.DAL\\Repositories\\EmployeeRepo\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:10:48.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Repositories\\EmployeeRepo\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Dashboard.DAL\\Repositories\\EmployeeRepo\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Repositories\\EmployeeRepo\\EmployeeRepository.cs",
+              "RelativeToolTip": "Dashboard.DAL\\Repositories\\EmployeeRepo\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:10:45.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Dashboard.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Dashboard.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:06:09.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Department\\Index.cshtml",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "Dashboard.PL\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Dashboard.PL\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T14:48:29.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "Dashboard.PL\\Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "Dashboard.PL\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAuwJwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:45:31.829Z",
+              "WhenOpened": "2025-12-18T17:39:06.618Z",
               "EditorCaption": ""
             }
           ]

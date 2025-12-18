@@ -10,6 +10,7 @@ namespace Dashboard.BLL.Services.EmployeeService
     public interface IEmployeeServices
     {
         public IEnumerable<EmployeeDto> GetAllEmployees();
+        public IEnumerable<EmployeeDto> GetSearchedEmployees(string? searchvalue);
         public EmployeeDetailsDto GetEmployeeByID(int ID);
         public int CreateEmployee(CreatedEmployeeDto dto);
         public int UpdateEmployee(UpdatedEmployeeDto dto);

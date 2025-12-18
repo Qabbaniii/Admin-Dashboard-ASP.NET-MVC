@@ -11,5 +11,6 @@ namespace Dashboard.DAL.Repositories.EmployeeRepo
     public interface IEmployeeRepository : IGenericRepository<Employee>
     {
         //Spesific Signture
+        public IEnumerable<Employee> GetAll(string? searchValue);
     }
 }

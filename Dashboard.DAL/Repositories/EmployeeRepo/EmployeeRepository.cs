@@ -18,5 +18,12 @@ namespace Dashboard.DAL.Repositories.EmployeeRepo
             this._context = context;
         }
 
+        public IEnumerable<Employee> GetAll(string? searchValue)
+        {
+            if (searchValue is null) return GetAll();
+
+            var result = _context.Employees.Where(e=>e.Name.Trim().ToLower().Contains(searchValue.Trim().ToLower()));
+            return result;
+        }
     }
 }

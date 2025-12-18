@@ -17,10 +17,12 @@ namespace Dashboard.PL.Controllers
             this.logger = logger;
             this.environment = environment;
         }
-        public IActionResult Index()
+        public IActionResult Index(string? searchValue)
         {
-            var Employees = employeeServices.GetAllEmployees();
-            return View(Employees);
+            if (searchValue == null)
+                return View(employeeServices.GetAllEmployees());
+            else
+                return View(employeeServices.GetSearchedEmployees(searchValue));
         }
         public IActionResult Details(int id)
         {

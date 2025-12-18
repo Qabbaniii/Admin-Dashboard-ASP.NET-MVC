@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Route\\WorkSpace\\AdminDashboard\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.bll\\services\\employeeservice\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|solutionrelative:dashboard.bll\\services\\employeeservice\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.dal\\repositories\\employeerepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|solutionrelative:dashboard.dal\\repositories\\employeerepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.bll\\services\\employeeservice\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F702E4-2EE0-4E5E-A143-7B42861EC0F4}|Dashboard.BLL\\Dashboard.BLL.csproj|solutionrelative:dashboard.bll\\services\\employeeservice\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.dal\\repositories\\employeerepo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD82379-3AA9-42E8-BF4C-DC5A73A41DF0}|Dashboard.DAL\\Dashboard.DAL.csproj|solutionrelative:dashboard.dal\\repositories\\employeerepo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|d:\\route\\workspace\\admindashboard\\dashboard.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBC36ED0-5AB2-4CF2-9366-6FB5038C207E}|Dashboard.PL\\Dashboard.PL.csproj|solutionrelative:dashboard.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeServices.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\EmployeeService\\IEmployeeServices.cs",
+              "RelativeDocumentMoniker": "Dashboard.BLL\\Services\\EmployeeService\\IEmployeeServices.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\EmployeeService\\IEmployeeServices.cs",
+              "RelativeToolTip": "Dashboard.BLL\\Services\\EmployeeService\\IEmployeeServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:18:55.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeServices.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\EmployeeService\\EmployeeServices.cs",
+              "RelativeDocumentMoniker": "Dashboard.BLL\\Services\\EmployeeService\\EmployeeServices.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.BLL\\Services\\EmployeeService\\EmployeeServices.cs",
+              "RelativeToolTip": "Dashboard.BLL\\Services\\EmployeeService\\EmployeeServices.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:18:54.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Repositories\\EmployeeRepo\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Dashboard.DAL\\Repositories\\EmployeeRepo\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Repositories\\EmployeeRepo\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Dashboard.DAL\\Repositories\\EmployeeRepo\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:10:48.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Repositories\\EmployeeRepo\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Dashboard.DAL\\Repositories\\EmployeeRepo\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.DAL\\Repositories\\EmployeeRepo\\EmployeeRepository.cs",
+              "RelativeToolTip": "Dashboard.DAL\\Repositories\\EmployeeRepo\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:10:45.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Dashboard.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Dashboard.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:06:09.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dashboard.PL\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\Route\\WorkSpace\\AdminDashboard\\Dashboard.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Dashboard.PL\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T17:39:06.618Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -11,9 +11,9 @@ namespace Dashboard.DAL.Repositories.GenericRepo
     {
         public IEnumerable<IEntity> GetAll(bool WithTracking = false);
         public IEntity GetByID(int id);
-        public int Add(IEntity Item);
-        public int Update(IEntity Item);
-        public int Delete(int id);
-        public int softDelete(int id);
+        public void Add(IEntity Item);
+        public void Update(IEntity Item);
+        public void Delete(int id);
+        public void softDelete(int id);
     }
 }

@@ -1,6 +1,8 @@
-﻿using Dashboard.BLL.Dto_s.DepartmentDto_s;
+﻿
+using Dashboard.BLL.Dto_s.DepartmentDto_s;
 using Dashboard.BLL.Factory.DepartmentFactory;
 using Dashboard.DAL.Repositories.DepartmentRepo;
+using Dashboard.DAL.UOW;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,15 +13,18 @@ namespace Dashboard.BLL.Services.DepartmentService
 {
     public class DepartmentServices : IDepartmentServices
     {
-        private readonly IDepartmentRepository _repository;
-        public DepartmentServices(IDepartmentRepository repository)
+        
+        private readonly IUnitOfWork unitOfWork;
+
+        public DepartmentServices(IUnitOfWork unitOfWork)
         {
-            _repository = repository;
+            
+            this.unitOfWork = unitOfWork;
         }
 
         public IEnumerable<DepartmentDto> GetAllDepartments()
         {
-            var AllDepartments = _repository.GetAll();
+            var AllDepartments = unitOfWork.departmentRepository.GetAll();
 
             List<DepartmentDto> mappedDepartments = new List<DepartmentDto>();
             foreach (var department in AllDepartments)
@@ -31,7 +36,7 @@ namespace Dashboard.BLL.Services.DepartmentService
         }
         public DepartmentDetailsDto GetDepartmentByID(int ID)
         {
-            var department = _repository.GetByID(ID);
+            var department = unitOfWork.departmentRepository.GetByID(ID);
             if (department is null) return null;
             else
             {
@@ -44,29 +49,37 @@ namespace Dashboard.BLL.Services.DepartmentService
         {
             var dept = dto.FromCreatedDepartmentToDepartment();
 
-            return _repository.Add(dept);
+            unitOfWork.departmentRepository.Add(dept);
+            return unitOfWork.Complete();
 
         }
         public int UpdateDepartment(UpdatedDepartmentDto dto)
         {
             var dept = dto.FromUpdatedDepartmentToDepartment();
-            return _repository.Update(dept);
+            unitOfWork.departmentRepository.Update(dept);
+            return unitOfWork.Complete();
         }
 
         public bool DeleteDepartment(int ID)
         {
-            var dept = _repository.GetByID(ID);
+            var dept = unitOfWork.departmentRepository.GetByID(ID);
             if (dept is not null)
-                return _repository.Delete(ID) > 0;
+            {
+                unitOfWork.employeeRepository.Delete(ID);
+                return unitOfWork.Complete() > 0;
+            }
             else
                 return false;
         }
 
         public bool SoftDeleteDepartment(int ID)
         {
-            var dept = _repository.GetByID(ID);
+            var dept = unitOfWork.departmentRepository.GetByID(ID);
             if (dept is not null)
-                return _repository.softDelete(ID) > 0;
+            {
+                unitOfWork.employeeRepository.softDelete(ID);
+                return unitOfWork.Complete() > 0;
+            }
             else
                 return false;
         }

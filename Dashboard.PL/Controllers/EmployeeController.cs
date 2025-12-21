@@ -53,6 +53,7 @@ namespace Dashboard.PL.Controllers
                         HiringDate = viewModel.HiringDate,
                         Gender = viewModel.Gender,
                         EmployeeType = viewModel.EmployeeType,
+                        Image = viewModel.Image,
                     };
                     int Result = employeeServices.CreateEmployee(createdEmployee);
                     if (Result > 0)
@@ -132,6 +133,7 @@ namespace Dashboard.PL.Controllers
                         HiringDate = viewModel.HiringDate,
                         Gender = viewModel.Gender,
                         EmployeeType = viewModel.EmployeeType,
+                        Image = viewModel.Image,
                     };
                     int Result = employeeServices.UpdateEmployee(updatedEmployee);
                     if (Result > 0)

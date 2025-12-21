@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Dashboard.BLL.Common.Services.Attachment;
 using Dashboard.BLL.Dto_s.EmployeeDto_s;
 using Dashboard.DAL.Models.Employees;
 using Dashboard.DAL.Repositories.EmployeeRepo;
+using Dashboard.DAL.UOW;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,23 +15,27 @@ namespace Dashboard.BLL.Services.EmployeeService
     public class EmployeeServices : IEmployeeServices
     {
 
-        private readonly IEmployeeRepository repository;
+        
+        private readonly IUnitOfWork unitOfWork;
         private readonly IMapper mapper;
+        private readonly IAttachmentServices attachmentServices;
 
-        public EmployeeServices(IEmployeeRepository Repository, IMapper mapper)
+        public EmployeeServices(IUnitOfWork unitOfWork, IMapper mapper,IAttachmentServices attachmentServices)
         {
-            repository = Repository;
+            
+            this.unitOfWork = unitOfWork;
             this.mapper = mapper;
+            this.attachmentServices = attachmentServices;
         }
         public IEnumerable<EmployeeDto> GetAllEmployees()
         {
-            var Employees = repository.GetAll();
+            var Employees = unitOfWork.employeeRepository.GetAll();
             var MappedEmployees = mapper.Map<IEnumerable<Employee>, IEnumerable<EmployeeDto>>(Employees);
             return MappedEmployees;
         }
         public IEnumerable<EmployeeDto> GetSearchedEmployees(string? searchvalue)
         {
-            var Employees = repository.GetAll(searchvalue);
+            var Employees = unitOfWork.employeeRepository.GetAll(searchvalue);
             var MappedEmployees = mapper.Map<IEnumerable<Employee>, IEnumerable<EmployeeDto>>(Employees);
             return MappedEmployees;
         }
@@ -40,7 +46,13 @@ namespace Dashboard.BLL.Services.EmployeeService
             Emp.CreatedOn = DateTime.Now;
             Emp.LastModifiedBy = 1;
             Emp.LastModifiedOn = DateTime.Now;
-            return repository.Add(Emp);
+
+            if (dto.Image is not null)
+            {
+              Emp.ImageName = attachmentServices.UploadImage(dto.Image, "images");
+            }
+            unitOfWork.employeeRepository.Add(Emp);
+            return unitOfWork.Complete();
         }
 
         public int UpdateEmployee(UpdatedEmployeeDto dto)
@@ -48,29 +60,51 @@ namespace Dashboard.BLL.Services.EmployeeService
             var Emp = mapper.Map<UpdatedEmployeeDto, Employee>(dto);
             Emp.LastModifiedBy = 1;
             Emp.LastModifiedOn = DateTime.Now;
-            return repository.Update(Emp);
+
+            if (dto.Image is not null)
+            {
+                if(Emp.ImageName is not null)
+                {
+                    var filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "files", "images", Emp.ImageName);
+                    attachmentServices.DeleteImage(filepath);
+                }
+                Emp.ImageName = attachmentServices.UploadImage(dto.Image, "images");
+            }
+            unitOfWork.employeeRepository.Update(Emp);
+            return unitOfWork.Complete();
         }
 
         public EmployeeDetailsDto GetEmployeeByID(int ID)
         {
-            var employee = repository.GetByID(ID);
+            var employee = unitOfWork.employeeRepository.GetByID(ID);
             var MappedEmployee = mapper.Map<Employee, EmployeeDetailsDto>(employee);
             return MappedEmployee;
         }
         public bool DeleteEmployee(int ID)
         {
-            var dept = repository.GetByID(ID);
-            if (dept is not null)
-                return repository.Delete(ID) > 0;
+            var emp = unitOfWork.employeeRepository.GetByID(ID);
+            if (emp is not null)
+            { 
+                if(emp.ImageName is not null)
+                {
+                    var filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "files", "images",emp.ImageName);
+                    attachmentServices.DeleteImage(filepath);
+                }
+                unitOfWork.employeeRepository.Delete(ID);
+                return unitOfWork.Complete() > 0;
+            }
             else
                 return false;
         }
 
         public bool SoftDeleteEmployee(int ID)
         {
-            var dept = repository.GetByID(ID);
-            if (dept is not null)
-                return repository.softDelete(ID) > 0;
+            var emp = unitOfWork.employeeRepository.GetByID(ID);
+            if (emp is not null)
+            {
+                unitOfWork.employeeRepository.softDelete(ID);
+                return unitOfWork.Complete() > 0;
+            }
             else
                 return false;
         }

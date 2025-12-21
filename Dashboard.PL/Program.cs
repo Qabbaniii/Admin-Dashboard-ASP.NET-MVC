@@ -1,9 +1,11 @@
+using Dashboard.BLL.Common.Services.Attachment;
 using Dashboard.BLL.Profiles;
 using Dashboard.BLL.Services.DepartmentService;
 using Dashboard.BLL.Services.EmployeeService;
 using Dashboard.DAL.Contexts;
 using Dashboard.DAL.Repositories.DepartmentRepo;
 using Dashboard.DAL.Repositories.EmployeeRepo;
+using Dashboard.DAL.UOW;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,10 +25,10 @@ namespace Dashboard.PL
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
             // add context service
-            builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
-            builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IDepartmentServices, DepartmentServices>();
             builder.Services.AddScoped<IEmployeeServices, EmployeeServices>();
+            builder.Services.AddScoped<IAttachmentServices, AttachmentServices>();
             builder.Services.AddAutoMapper(cfg => { }, typeof(MappingProfile));
             /*2*/
             var app = builder.Build();

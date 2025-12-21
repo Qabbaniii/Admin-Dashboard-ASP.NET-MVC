@@ -1,5 +1,6 @@
 ﻿using Dashboard.DAL.Models.Employees;
 using Dashboard.DAL.Models.Shared;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -35,5 +36,7 @@ namespace Dashboard.BLL.Dto_s.EmployeeDto_s
         public DateOnly HiringDate { get; set; }
         public Gender Gender { get; set; }
         public EmployeeType EmployeeType { get; set; }
+        public string? ImageName { get; set; }
+        public IFormFile? Image {  get; set; }
     }
 }

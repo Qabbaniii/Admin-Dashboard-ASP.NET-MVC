@@ -27,15 +27,13 @@ namespace Dashboard.DAL.Repositories.GenericRepo
                 return _context.Set<IEntity>().Where(d => d.IsDeleted == false).AsNoTracking().ToList();
             }
         }
-        public int Add(IEntity Item)
+        public void Add(IEntity Item)
         {
             _context.Set<IEntity>().Add(Item);
-            return _context.SaveChanges();
         }
-        public int Update(IEntity Item)
+        public void Update(IEntity Item)
         {
             _context.Set<IEntity>().Update(Item);
-            return _context.SaveChanges();
         }
 
 
@@ -45,20 +43,18 @@ namespace Dashboard.DAL.Repositories.GenericRepo
             var Item = _context.Set<IEntity>().Find(id);
             return Item;
         }
-        public int Delete(int id)
+        public void Delete(int id)
         {
             var Item = _context.Set<IEntity>().Find(id);
             _context.Set<IEntity>().Remove(Item);
-            return _context.SaveChanges();
         }
 
 
-        public int softDelete(int id)
+        public void softDelete(int id)
         {
             var Item = _context.Set<IEntity>().Find(id);
             Item.IsDeleted = true;
             _context.Update(Item);
-            return _context.SaveChanges();
         }
 
 

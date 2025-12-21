@@ -20,6 +20,7 @@ namespace Dashboard.DAL.Models.Employees
         public DateOnly HiringDate { get; set; }
         public Gender Gender { get; set; }
         public EmployeeType EmployeeType { get; set; }
+        public string? ImageName { get; set; }
 
 
 

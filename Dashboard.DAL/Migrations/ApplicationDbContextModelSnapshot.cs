@@ -95,6 +95,9 @@ namespace Dashboard.DAL.Migrations
                     b.Property<DateOnly>("HiringDate")
                         .HasColumnType("date");
 
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 

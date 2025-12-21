@@ -1,5 +1,6 @@
 ﻿using Dashboard.DAL.Models.Employees;
 using Dashboard.DAL.Models.Shared;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,5 +27,6 @@ namespace Dashboard.BLL.Dto_s.EmployeeDto_s
         public DateTime CreatedOn { get; set; }
         public int LastModifiedBy { get; set; }
         public DateTime LastModifiedOn { get; set; }
+        public string? ImageName { get; set; }
     }
 }

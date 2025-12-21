@@ -62,6 +62,9 @@ D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\css\bo
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\files\images\006dc25f-9238-42b2-b0bb-391cfc0d56f7_الصورة الشخصية.png
+wwwroot\files\images\0caa087f-3f93-4476-bc3f-e3dff5165b0f_الختم.png
+wwwroot\files\images\3494f299-1c95-43ea-8970-db86fe07b7bf_1.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -21,5 +21,6 @@ namespace Dashboard.BLL.Dto_s.EmployeeDto_s
         public string Gender { get; set; }
         [Display(Name = "Employee Type")]
         public string EmployeeType { get; set; }
+        public string ImageName { get; set; }
     }
 }

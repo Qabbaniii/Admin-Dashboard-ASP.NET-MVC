@@ -689,6 +689,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/9.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/9.0.11": {
         "type": "package",
         "compile": {
@@ -4070,6 +4086,21 @@
         "lib/netstandard2.1/MailKit.xml",
         "mailkit.4.14.1.nupkg.sha512",
         "mailkit.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/9.0.11": {
+      "sha512": "6qWa78zNbUnyQF7tZrt1CWOKJYBdb92gwMF75qxYzGIgDiDp7fEpbJ6gRRdhrCq1OaLwLn+1InAMddKvrDEb/w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/9.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.9.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/9.0.11": {
@@ -8299,6 +8330,7 @@
     "net9.0": [
       "Dashboard.BLL >= 1.0.0",
       "MailKit >= 4.14.1",
+      "Microsoft.AspNetCore.Authentication.Google >= 9.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.11",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.11",
       "MimeKit >= 4.14.0"
@@ -8361,6 +8393,10 @@
           "MailKit": {
             "target": "Package",
             "version": "[4.14.1, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[9.0.11, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

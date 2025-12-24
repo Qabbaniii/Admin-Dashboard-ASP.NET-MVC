@@ -358,3 +358,4 @@ D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Debug\net9.0\refint\Dashboard
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Debug\net9.0\Dashboard.PL.pdb
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Debug\net9.0\Dashboard.PL.genruntimeconfig.cache
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\obj\Debug\net9.0\ref\Dashboard.PL.dll
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll

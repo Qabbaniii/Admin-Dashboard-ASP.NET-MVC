@@ -1,10 +1,13 @@
 ﻿using Dashboard.DAL.Models.Identity;
 using Dashboard.PL.Helper;
 using Dashboard.PL.ViewModels.IdentityVMs;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NuGet.Common;
 using System.Net;
+using System.Security.Claims;
 
 namespace Dashboard.PL.Controllers
 {
@@ -151,6 +154,40 @@ namespace Dashboard.PL.Controllers
                 }
             }
             return View(model);
+        }
+
+        #endregion
+
+        #region Google Signin
+        public IActionResult GoogleLogin()
+        {
+            var prop = new AuthenticationProperties
+            {
+                RedirectUri = Url.Action("GoogleResponse")
+            };
+
+            return Challenge(prop, GoogleDefaults.AuthenticationScheme);
+        }
+        public async Task<IActionResult> GoogleResponse()
+        {
+            var result = await HttpContext.AuthenticateAsync(
+                GoogleDefaults.AuthenticationScheme
+            );
+
+            if (!result.Succeeded)
+                return RedirectToAction("Login");
+
+            var claims = result.Principal.Identities
+                .FirstOrDefault()
+                ?.Claims.Select(claim => new
+                {
+                    claim.Issuer,
+                    claim.OriginalIssuer,
+                    claim.Type,
+                    claim.Value
+                });
+
+            return RedirectToAction("Index", "Home");
         }
 
         #endregion

@@ -8,7 +8,9 @@ using Dashboard.DAL.Repositories.DepartmentRepo;
 using Dashboard.DAL.Repositories.EmployeeRepo;
 using Dashboard.DAL.UOW;
 using Dashboard.PL.Helper;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -53,6 +55,16 @@ namespace Dashboard.PL
                                 options.AccessDeniedPath = "/Account/AccessDenied";
                                 options.ExpireTimeSpan = TimeSpan.FromHours(5);
                             });
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = GoogleDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+            }).AddGoogle(o =>{
+                IConfiguration GoogleAuthSection = builder.Configuration.GetSection("Authentication:Google");
+                o.ClientId = GoogleAuthSection["ClientId"];
+                o.ClientSecret = GoogleAuthSection["ClientSecret"];
+            });
             /*2*/
             var app = builder.Build();
 

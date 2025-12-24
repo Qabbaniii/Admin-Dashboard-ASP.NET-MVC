@@ -1,10 +1,12 @@
 ﻿using Dashboard.BLL.Dto_s.EmployeeDto_s;
 using Dashboard.BLL.Services.EmployeeService;
 using Dashboard.PL.ViewModels.EmployeeVMs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Dashboard.PL.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly IEmployeeServices employeeServices;

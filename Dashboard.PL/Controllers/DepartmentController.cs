@@ -1,12 +1,15 @@
 ﻿using Dashboard.BLL.Dto_s.DepartmentDto_s;
 using Dashboard.BLL.Services.DepartmentService;
 using Dashboard.PL.ViewModels.DepartmentVMs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Dashboard.PL.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class DepartmentController : Controller
     {
+
         private readonly IDepartmentServices departmentServices;
         private readonly ILogger<DepartmentController> logger;
         private readonly IWebHostEnvironment webHostEnvironment;

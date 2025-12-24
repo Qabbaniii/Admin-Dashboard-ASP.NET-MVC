@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "CheckYourInbox";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+<h1>CheckYourInbox</h1>
+
+<div class="main-agileinfo">
+    <div class="agileits-top">
+        <div class="body">
+            <div>
+                Password reset Link has been sent To Your Email. Please Check your Inbox :)
+            </div>
+            <div>
+                <a href="https://mail.google.com/mail/u/e/#inbox" class="btn btn-check" > Your Inbox</a>
+            </div>
+        </div>
+    </div>
+</div>
+@section Validation {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+                }

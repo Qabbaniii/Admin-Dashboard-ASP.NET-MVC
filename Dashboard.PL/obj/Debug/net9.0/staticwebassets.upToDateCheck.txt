@@ -19,6 +19,7 @@ D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\css\bo
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\css\authStyle.css
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\jquery\dist\jquery.min.map
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -60,11 +61,14 @@ D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\js\boo
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 D:\Route\WorkSpace\AdminDashboard\Dashboard.PL\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\css\authStyle.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\files\images\006dc25f-9238-42b2-b0bb-391cfc0d56f7_الصورة الشخصية.png
 wwwroot\files\images\0caa087f-3f93-4476-bc3f-e3dff5165b0f_الختم.png
 wwwroot\files\images\3494f299-1c95-43ea-8970-db86fe07b7bf_1.png
+wwwroot\files\images\40d49784-5f26-4524-bf74-d3027cc34582_الإبراهيمية.png
+wwwroot\files\images\9de12d5f-9cb6-40d2-8db5-b4d77778ba70_favicon.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
